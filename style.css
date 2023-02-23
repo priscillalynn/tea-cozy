@@ -100,3 +100,59 @@ figure figcaption {
   margin: 10px;
   font-weight: bold;
 }
+
+.locations-container {
+  display: flex;
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*1ep7vzz*_ga*OTIzNjM5NDk0OS4xNjY1NTczNjg2*_ga_3LRZM6TM9L*MTY3NzE2MzA2Ny4xMTMuMS4xNjc3MTYzNzE5LjU5LjAuMA..");
+  background-repeat: no-repeat;
+  background-position: center;
+  justify-content: center;
+  background-size: cover;
+  height: 500px;
+  width: auto;
+  border: 1px solid seashell;
+  margin: 40px;
+}
+
+.locations-header {
+  text-align: center;
+  background-color: transparent;
+  padding-top: 30px;
+}
+
+.address-box1,
+.address-box2,
+.address-box3 {
+  background-color: black;
+  opacity: 1;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 300px;
+  height: auto;
+}
+
+.address-box1 p,
+.address-box2 p,
+.address-box3 p {
+  text-align: center;
+  line-height: 1.8;
+  font-size: 20px;
+}
+
+.locations-wrapper {
+  display: flex;
+  column-gap: 40px;
+  background-color: transparent;
+}
+
+.contact {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+footer {
+  text-align: left;
+  margin: 20px;
+  font-weight: bold;
+}
